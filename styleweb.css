@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sixing: border-box;
+}
+
+
+h1{
+	font-size: 2.2rem;
+}
+
+li{
+	font-size: 2rem;
+}
+
+
+
+nav img {
+	align-items: center;
+	width : 75px;
+	height : 75px;
+	margin-right:40px;
+}
+
+
+a{
+	font-size: 1.8rem;
+	color: black;
+	text-decoration: none;
+}
+
+
+.main-head {
+	background: 	#DEB887 ;
+	color: black ;
+}
+
+
+nav{
+	min-height: 10vh;
+	display: flex;
+	align-items: center;
+	width: 90%;
+	margin:auto;
+	padding: 0.5rem;
+}
+
+
+nav ul{
+	font-weight: 650;
+	font-family: Courier New;
+	display: flex;
+	flex: 1 1 40rem;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+
+
+nav ul li:hover a{
+	color: darkgrey;
+	transition: 0,8s all;
+}
+
+
+#logo{
+	font-family: Courier New;
+	flex: 1 1 40rem;
+}
+
+body{
+  background-color: #ffecd7;
+}
+
+
+h2 {
+  font-size: 250%; 
+  color: #ffffff; 
+  text-align: center;
+  font-family : Georgia;
+  text-decoration : underline ;
+}
+
+h3 {
+  font-size: 100%; 
+  color: #ffffff;
+  text-align: center;
+  font-family : Courier New ;
+}
+
+h4 {
+  font-size: 200%; 
+  color: #000000; 
+  text-align: center;
+  font-family : Georgia;
+}
+
+.titre {
+  color: #ffffff;
+	font-family: Courier New;
+	min-height: 90vh;
+	background: linear-gradient(rgb(245,222,179, 0.4),transparent),url("image/webimage.jpg");
+	background-size: cover	;
+	background-position: center;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+
+p:first-letter {
+  font-size : 300% ;
+  font-style : italic
+  font-family: "Inconsolata", sans-serif;
+  color: #000000; 
+}
+
+p {
+  font-size : 20px ;
+  font-style : italic
+  font-family: Courier New;
+  color: #000000; 
+
+}
+
+.intro {
+  width: 100%;
+  overflow: auto;
+  
+}
+
+img {
+  float: right;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  width: 340px;
+  position : relative
+}
+
+p {
+  margin-right: 20px;
+  margin-left: 30px;
+  position: relative;
+  font-family: Didot;
+}
+
+
+.web2 {
+  float: left;
+  width: 400px;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  position : relative;
+}
+
+h5 {
+  font-size: 150%; 
+  color: #000000; 
+  text-align: center;
+  font-family : Georgia;
+}
+
+.video {
+  text-align: center;
+}
+  
+.fleche{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
+
+.icone{
+  width:50px;
+}
+
+ 

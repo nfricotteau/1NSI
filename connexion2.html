@@ -1,0 +1,36 @@
+
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <link rel="stylesheet" type="text/css" href="style2.css">
+    <title>Connexion</title>
+    <script>
+      // CETTE PAGE NE MARCHE PAS CAR ELLE N4ARRIVE PAS A RECUPERER LES DONNE DE LA VARABLE LOCAL.STORAGE ELLE PERMET SEULEMENT DEVOUS MONTRER NOTRE DETERMINATION POUR VOUS PROPOSER LE MAXIMUM QUE NOUS POUVIONS
+      function validateForm() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+
+        // Vérifier que les valeurs entrées correspondent à celles du formulaire de création de compte
+        if (username === localStorage.getItem("username") && password === localStorage.getItem("password")) {
+          return true;
+        } else {
+          alert("Identifiant ou mot de passe incorrect.");
+          return false;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <form onsubmit="return validateForm()" method="post">
+      <label for="username">Identifiant:</label>
+      <input type="text" id="username" name="username"><br>
+
+      <label for="password">Mot de passe:</label>
+      <input type="password" id="password" name="password"><br>
+
+      <input type="submit" value="Se connecter">
+    </form>
+  </body>
+</html>
